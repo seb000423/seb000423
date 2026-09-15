@@ -19,18 +19,19 @@
 -->
 
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0F2027,50:203A43,100:2C5364&height=210&text=%F0%9F%91%8B%20Hello%2C%20I'm%20Boo%20Seung%20Eon&animation=fadeIn&fontColor=ffffff&fontSize=36&desc=Robot%20Manipulation%20%C2%B7%20Imitation%20Learning%20%C2%B7%20Reinforcement%20Learning&descSize=15&descAlignY=62" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0F2027,50:203A43,100:2C5364&height=210&text=%F0%9F%91%8B%20Hello%2C%20I'm%20Seungeon%20Boo&animation=fadeIn&fontColor=ffffff&fontSize=38&desc=Physical%20AI%20%C2%B7%20Robot%20Digital%20Twin%20%C2%B7%20Sim-to-Real&descSize=15&descAlignY=62" />
 </div>
 
-## AI · Robotics Engineer — Robot Manipulation
+## AI · Robotics Engineer — Physical AI & Robot Digital Twin
 
-I build learning-based control that lets robots take over manual, hands-on work — training policies in simulation and transferring them to a real robot arm.
+I build robots that learn manual work from data. I set up simulation environments, generate the data policies need, train them there, and bring them back to the real robot arm.
 
 **Focus**
 
+- Robot Simulation & Digital Twin — NVIDIA Isaac Sim
 - Imitation Learning & Reinforcement Learning for Manipulation
+- Training Data from Demonstrations & Simulated Rollouts
 - Sim-to-Real Transfer
-- Robot Vision for Task Perception
 
 ## 🛠️ Tech Stacks
 
@@ -59,6 +60,7 @@ I build learning-based control that lets robots take over manual, hands-on work 
 
 Automating car-body finishing (polishing, sanding, deburring) that has been done by hand.
 
+- **Sim** — built the Isaac Sim cell (robot, workpiece, contact setup) used to generate training data
 - **BO** — searches the process recipe (pressure, speed, path parameters)
 - **BC** — learns the motion policy from skilled operators' demonstrations
 - **PPO** — fine-tunes the learned policy
@@ -67,6 +69,10 @@ Automating car-body finishing (polishing, sanding, deburring) that has been done
 - **Repo:** [seb000423/cacadaca](https://github.com/seb000423/cacadaca)
 
 #### [Project 2 Title]
+
+<!-- 지원 포지션(로봇 디지털트윈)을 노린다면: 시뮬레이션 환경 구축, 합성데이터 생성 파이프라인,
+     Virtual Commissioning 검증 중 하나를 2번 프로젝트로 올리는 게 가장 효과적입니다.
+     부트캠프 실무 프로젝트가 여기에 해당하면 그걸 올리세요. -->
 
 [한 줄 요약 — what problem it solves.]
 
