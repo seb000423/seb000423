@@ -6,13 +6,14 @@
 
 I specialize in teaching **robot arms** the manual work people do by hand, particularly contact-rich tasks such as polishing, sanding and deburring that are difficult to program explicitly. My approach starts in simulation: I build the digital twin of the full robot cell — the arms together with their linear rail, telescopic lift and workpiece fixtures — then train a policy there from human demonstrations and the policy's own rollouts, and transfer it to the physical manipulator. Currently I am building **cacadaca**, an end-to-end pipeline that turns a skilled operator's surface finishing work into a robot arm policy.
 
-**Focus**
+🔭 **Interests**
 
-- Manipulation with Robot Arms — Contact-Rich Tasks
-- Multi-Robot Cells with External Axes — Linear Rail, Telescopic Lift
-- Imitation & Reinforcement Learning from Demonstrations and Simulated Rollouts
-- Robot Simulation & Digital Twin — NVIDIA Isaac Sim
+- Physical AI & Robot Digital Twin
 - Sim-to-Real Transfer
+- Imitation Learning & Reinforcement Learning
+- Contact-Rich Manipulation
+- Multi-Robot Coordination with External Axes
+- Virtual Commissioning for Autonomous Manufacturing
 
 ## 🛠️ Tech Stacks
 
