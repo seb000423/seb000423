@@ -2,9 +2,9 @@
   <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0F2027,50:203A43,100:2C5364&height=210&text=%F0%9F%91%8B%20Hello%2C%20I'm%20Seungeon%20Boo&animation=fadeIn&fontColor=ffffff&fontSize=38&desc=Physical%20AI%20%C2%B7%20Robot%20Digital%20Twin%20%C2%B7%20Sim-to-Real&descSize=15&descAlignY=62" />
 </div>
 
-## AI · Robotics Engineer — Robot Arm Manipulation & Digital Twin
+## AI · Robotics Engineer — Robot Digital Twin & Sim-to-Real
 
-I specialize in teaching **robot arms** the manual work people do by hand, particularly contact-rich tasks such as polishing, sanding and deburring that are difficult to program explicitly. My approach starts in simulation: I build the digital twin of the full robot cell — the arms together with their linear rail, telescopic lift and workpiece fixtures — then train a policy there from human demonstrations and the policy's own rollouts, and transfer it to the physical manipulator. Currently I am building **cacadaca**, an end-to-end pipeline that turns a skilled operator's surface finishing work into a robot arm policy.
+I work on robot digital twins and sim-to-real transfer. I build simulation environments for robots and train policies there on expert demonstration data through behavior cloning, then refine them with reinforcement learning. My current focus is manipulation: contact-rich tasks such as polishing, sanding and deburring that are difficult to program explicitly.
 
 🔭 **Interests**
 
@@ -12,7 +12,7 @@ I specialize in teaching **robot arms** the manual work people do by hand, parti
 - Sim-to-Real Transfer
 - Imitation Learning & Reinforcement Learning
 - Contact-Rich Manipulation
-- Multi-Robot Coordination with External Axes
+- Multi-Arm Coordination with External Axes
 - Virtual Commissioning for Autonomous Manufacturing
 
 ## 🛠️ Tech Stacks
@@ -36,7 +36,7 @@ I specialize in teaching **robot arms** the manual work people do by hand, parti
 
 ### 🚀 Projects
 
-#### cacadaca — Robotic Surface Finishing for Car Bodies
+#### Robotic Surface Finishing for Car Bodies
 
 Automating car-body finishing (polishing, sanding, deburring) that has been done by hand.
 
@@ -47,7 +47,6 @@ Automating car-body finishing (polishing, sanding, deburring) that has been done
 - **PPO** — fine-tunes the learned policy
 - **Result:** [정량 결과 — 예: surface roughness Ra [x] → [y], cycle time reduced by [z]%]
 - **Stack:** Python, PyTorch, ROS, Isaac Sim
-- **Repo:** [seb000423/cacadaca](https://github.com/seb000423/cacadaca)
 
 #### [Project 2 Title]
 
@@ -68,6 +67,7 @@ Automating car-body finishing (polishing, sanding, deburring) that has been done
 **AI & Robotics Engineer Program, Cohort [N]** *([YYYY.MM] – [YYYY.MM] · [총 교육시간]h)*
 
 - Collaborative robots, computer vision, mobile manipulators, and digital twin — ROS-based (4 months coursework + 2 months industry project)
+- **Hands-on with real hardware:** programmed and operated physical collaborative robot arms to carry out task sequences
 - **What I built:** [실무 프로젝트 1줄 요약] → [Repo](https://github.com/seb000423/[repo])
 - **Stack:** ROS 2, Python, [OpenCV, PyTorch, Doosan M/H-series, ...]
 - **Certificate:** [Certificate](./certs/rokey.pdf)
