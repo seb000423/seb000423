@@ -6,15 +6,6 @@
 
 I work on robot digital twins and sim-to-real transfer. I build simulation environments for robots and train policies there on expert demonstration data through behavior cloning, then refine them with reinforcement learning. My current focus is manipulation: contact-rich tasks such as polishing, sanding and deburring that are difficult to program explicitly.
 
-🔭 **Interests**
-
-- Physical AI & Robot Digital Twin
-- Sim-to-Real Transfer
-- Imitation Learning & Reinforcement Learning
-- Contact-Rich Manipulation
-- Multi-Arm Coordination with External Axes
-- Virtual Commissioning for Autonomous Manufacturing
-
 ## 🛠️ Tech Stacks
 
 <div align="center">
@@ -34,47 +25,47 @@ I work on robot digital twins and sim-to-real transfer. I build simulation envir
 
 ---
 
+### 🔭 Interests
+
+- Physical AI & Robot Digital Twin
+- Sim-to-Real Transfer
+- Imitation Learning & Reinforcement Learning
+- Contact-Rich Manipulation
+- Multi-Arm Coordination with External Axes
+- Virtual Commissioning for Autonomous Manufacturing
+
+---
+
 ### 🚀 Projects
 
-#### Robotic Surface Finishing for Car Bodies
+- **Robotic Surface Finishing for Car Bodies**
+  - Automating car-body finishing (polishing, sanding, deburring) that has been done by hand.
+  - **Cell:** modeled the whole workcell in Isaac Sim — robot arms on a linear rail with a telescopic lift, workpiece fixtures and contact setup, driven as one extended kinematic chain
+  - **Coordination:** coordinated multiple arms in the same cell and tied each arm's reachable workspace to the current lift pose, keeping motions within reach and collision-free
+  - **BO:** searches the process recipe (pressure, speed, path parameters)
+  - **BC:** learns the motion policy from expert demonstration data
+  - **PPO:** refines the learned policy
+  - **Result:** [정량 결과 — 예: in simulation, surface roughness Ra [x] → [y], success rate [z]%]
+  - **Tech:** Python, PyTorch, ROS, Isaac Sim
 
-Automating car-body finishing (polishing, sanding, deburring) that has been done by hand.
-
-- **Cell** — modeled the whole workcell in Isaac Sim: robot arms on a linear rail with a telescopic lift, workpiece fixtures and contact setup, driven as one extended kinematic chain
-- **Coordination** — coordinated multiple arms in the same cell and tied each arm's reachable workspace to the current lift pose, keeping motions within reach and collision-free
-- **BO** — searches the process recipe (pressure, speed, path parameters)
-- **BC** — learns the motion policy from skilled operators' demonstrations
-- **PPO** — fine-tunes the learned policy
-- **Result:** [정량 결과 — 예: surface roughness Ra [x] → [y], cycle time reduced by [z]%]
-- **Stack:** Python, PyTorch, ROS, Isaac Sim
-
-#### [Project 2 Title]
-
-[한 줄 요약 — what problem it solves.]
-
-- [무엇을 했는지 1]
-- [무엇을 했는지 2]
-- **Result:** [수치로 표현된 결과]
-- **Stack:** [사용 기술]
-- **Repo:** [[repo name]](https://github.com/seb000423/[repo])
+- **[Project 2 Title]**
+  - [한 줄 요약 — what problem it solves.]
+  - [무엇을 했는지]
+  - **Result:** [수치로 표현된 결과]
+  - **Tech:** [사용 기술]
 
 ---
 
 ### 🎓 Education & Training
 
-#### Doosan Robotics · ROKEY BOOT CAMP
+- **Doosan Robotics · ROKEY BOOT CAMP** — AI & Robotics Engineer Program, Cohort [N] *([YYYY.MM] – [YYYY.MM] · [총 교육시간]h)*
+  - Collaborative robots, computer vision, mobile manipulators and digital twin — ROS-based (4 months coursework + 2 months industry project)
+  - **Hands-on with real hardware:** programmed and operated physical collaborative robot arms to carry out task sequences
+  - **What I built:** [실무 프로젝트 1줄 요약]
+  - **Tech:** ROS 2, Python, [OpenCV, PyTorch, Doosan M/H-series, ...]
+  - **Certificate:** [Certificate](./certs/rokey.pdf)
 
-**AI & Robotics Engineer Program, Cohort [N]** *([YYYY.MM] – [YYYY.MM] · [총 교육시간]h)*
-
-- Collaborative robots, computer vision, mobile manipulators, and digital twin — ROS-based (4 months coursework + 2 months industry project)
-- **Hands-on with real hardware:** programmed and operated physical collaborative robot arms to carry out task sequences
-- **What I built:** [실무 프로젝트 1줄 요약] → [Repo](https://github.com/seb000423/[repo])
-- **Stack:** ROS 2, Python, [OpenCV, PyTorch, Doosan M/H-series, ...]
-- **Certificate:** [Certificate](./certs/rokey.pdf)
-
-#### [University]
-
-**[Degree], [Major]** *([YYYY.MM] – [YYYY.MM 또는 Present])*
+- **[Degree], [Major]** — [University] *([YYYY.MM] – [YYYY.MM 또는 Present])*
 
 ---
 
