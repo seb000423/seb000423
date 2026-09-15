@@ -68,32 +68,32 @@
 
 ---
 
-## 🎓 Education
-
-- **[학위], [전공]** — [대학교] *([YYYY.MM] ~ [YYYY.MM 또는 Present])*
-  - **Thesis:** [학위논문 제목] <!-- 없으면 삭제 -->
-  - **Coursework:** [주요 수강 과목 3~5개] <!-- 없으면 삭제 -->
-
----
-
-## 🏫 Training & Certifications
+## 🎓 Education & Training
 
 <!--
-  부트캠프 작성 규칙
-  ① 학위(Education)와 반드시 분리
-  ② 기간과 총 교육시간을 함께 (예: 2025.03 ~ 2025.09 · 960h)
-  ③ "배웠다"가 아니라 "만들었다" — 산출물 레포 링크가 수료증보다 강함
-  ④ 수료증 PDF는 이 레포 /certs 폴더에 올리고 링크, 검증 URL이 있으면 그걸 우선
-  ⑤ 산출물 없는 수료증·자격증은 아래 표로 몰아서 정리
+  기관명을 ### 소제목으로 올리면 글자가 커져서 가장 강하게 강조됩니다.
+  ① 기간과 총 교육시간을 함께 (예: 2025.03 ~ 2025.09 · 960h)
+  ② "배웠다"가 아니라 "만들었다" — 산출물 레포 링크가 수료증보다 강함
+  ③ 수료증 PDF는 이 레포 /certs 폴더에 올리고 링크, 검증 URL이 있으면 그걸 우선
+  ④ 산출물 없는 수료증·자격증은 아래 표로 몰아서 정리
 -->
 
-**Programs**
+### 두산로보틱스 · ROKEY BOOT CAMP
 
-- **ROKEY BOOT CAMP — AI·로봇 엔지니어 양성과정 [N]기** · 두산로보틱스 *([YYYY.MM] ~ [YYYY.MM] · [총 교육시간]h)*
-  - 협동로봇 · 컴퓨터비전 · 모바일 매니퓰레이터 · 디지털트윈 (ROS 기반, 이론 4개월 + 실무 프로젝트 2개월)
-  - **What I built:** [실무 프로젝트 1줄 요약] → [Repo](https://github.com/seb000423/[repo])
-  - **Stack:** ROS 2, Python, [OpenCV, PyTorch, Doosan M/H-series, ...]
-  - **Certificate:** [수료증](./certs/rokey.pdf) <!-- 없으면 삭제 -->
+**AI·로봇 엔지니어 양성과정 [N]기** *([YYYY.MM] ~ [YYYY.MM] · [총 교육시간]h)*
+
+협동로봇 · 컴퓨터비전 · 모바일 매니퓰레이터 · 디지털트윈을 다루는 ROS 기반 과정
+(기술이론 4개월 + 실무 프로젝트 2개월)
+
+- **What I built:** [실무 프로젝트 1줄 요약] → [Repo](https://github.com/seb000423/[repo])
+- **Stack:** ROS 2, Python, [OpenCV, PyTorch, Doosan M/H-series, ...]
+- **Certificate:** [수료증](./certs/rokey.pdf) <!-- 없으면 삭제 -->
+
+### [대학교]
+
+**[학위], [전공]** *([YYYY.MM] ~ [YYYY.MM 또는 Present])*
+
+<!-- 학력을 넣지 않으려면 이 ### 블록 전체를 삭제하세요 -->
 
 **Certifications**
 
@@ -106,10 +106,15 @@
 
 ## 🏅 Awards
 
+<!--
+  수상은 최신순. 정부 시상(장관상·국무총리상)은 가장 강한 항목이라 맨 위에 둡니다.
+  대회는 회차를 포함한 공식 명칭으로, 주최/주관 기관까지 적으면 검증 가능해 보입니다.
+-->
+
 | Award | Host | Date |
 |---|---|---|
-| [수상명] — [등급] | [주최 기관] | [YYYY.MM] |
-| [수상명] — [등급] | [주최 기관] | [YYYY.MM] |
+| **제8회 K-디지털 트레이닝 해커톤 — 최우수상 (고용노동부 장관상)** | 고용노동부 주최 · 한국기술교육대학교 직업능력심사평가원 주관 | 2026.09 |
+| LINC 3.0 캡스톤디자인 경진대회 — 우수상 | LINC 3.0 사업단 | 2024 |
 
 ---
 
@@ -118,8 +123,6 @@
 <div align="center">
   <a href="mailto:seb000423@gmail.com"><img src="https://img.shields.io/badge/Gmail-EA4335?style=plastic&logo=Gmail&logoColor=white"></a>
   <a href="https://github.com/seb000423"><img src="https://img.shields.io/badge/GitHub-181717?style=plastic&logo=GitHub&logoColor=white"></a>
-  <a href="[LinkedIn 주소]"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=plastic&logo=LinkedIn&logoColor=white"></a>
-  <a href="[Notion / 블로그 주소]"><img src="https://img.shields.io/badge/Portfolio-000000?style=plastic&logo=Notion&logoColor=white"></a>
 </div>
 
 <!--
