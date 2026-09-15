@@ -30,16 +30,10 @@
 
 <div align="center">
   <img src="https://img.shields.io/badge/Python-3776AB?style=plastic&logo=Python&logoColor=white">
-  <img src="https://img.shields.io/badge/C++-00599C?style=plastic&logo=C%2B%2B&logoColor=white">
-  <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=plastic&logo=PyTorch&logoColor=white">
-  <img src="https://img.shields.io/badge/NumPy-013243?style=plastic&logo=NumPy&logoColor=white">
-  <img src="https://img.shields.io/badge/OpenCV-5C3EE8?style=plastic&logo=OpenCV&logoColor=white">
-  <br/>
   <img src="https://img.shields.io/badge/ROS-22314E?style=plastic&logo=ROS&logoColor=white">
-  <img src="https://img.shields.io/badge/Docker-2496ED?style=plastic&logo=Docker&logoColor=white">
-  <img src="https://img.shields.io/badge/Linux-FCC624?style=plastic&logo=Linux&logoColor=black">
-  <img src="https://img.shields.io/badge/Git-F05032?style=plastic&logo=Git&logoColor=white">
-  <img src="https://img.shields.io/badge/GitHub-181717?style=plastic&logo=GitHub&logoColor=white">
+  <img src="https://img.shields.io/badge/Isaac%20Sim-76B900?style=plastic&logo=NVIDIA&logoColor=white">
+  <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=plastic&logo=PyTorch&logoColor=white">
+  <img src="https://img.shields.io/badge/OpenCV-5C3EE8?style=plastic&logo=OpenCV&logoColor=white">
 </div>
 
 ---
@@ -59,7 +53,7 @@
 - **BC** — 숙련 작업자의 시연 데이터로 동작 정책 학습
 - **PPO** — 학습된 정책의 미세 보정
 - **Result:** [정량 결과 — 예: 표면 조도 Ra [x] → [y], 사이클 타임 [z]% 단축]
-- **Stack:** Python, PyTorch, ROS, [시뮬레이터명]
+- **Stack:** Python, PyTorch, ROS, Isaac Sim
 - **Repo:** [seb000423/cacadaca](https://github.com/seb000423/cacadaca)
 
 ### [프로젝트 2 제목]
