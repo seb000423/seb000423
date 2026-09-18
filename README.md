@@ -38,8 +38,7 @@ I work on robot digital twins and sim-to-real transfer. I build simulation envir
 
 ### 🚀 Projects
 
-- **[Robotic Surface Finishing Digital Twin](https://github.com/seb000423/robotic-surface-finishing-digital-twin)**
-  - Automating surface finishing (polishing, sanding, deburring) that has been done by hand, with a digital twin of the workcell.
+- **[Robotic Surface Finishing Digital Twin](https://github.com/seb000423/robotic-surface-finishing-digital-twin)** — digital twin for robotic polishing, sanding and deburring
   - **Cell:** modeled the whole workcell in Isaac Sim — robot arms on a linear rail with a telescopic lift, workpiece fixtures and contact setup, driven as one extended kinematic chain
   - **Coordination:** coordinated multiple arms in the same cell and tied each arm's reachable workspace to the current lift pose, keeping motions within reach and collision-free
   - **BO:** searches the process recipe (pressure, speed, path parameters)
@@ -47,14 +46,13 @@ I work on robot digital twins and sim-to-real transfer. I build simulation envir
   - **PPO:** refines the learned policy
   - **Tech:** Python, PyTorch, ROS, Isaac Sim
 
-- **[Seek6D](https://github.com/seb000423/Seek6D)**
-  - ROS 2 cobot pipeline that finds a requested object on its own — voice command, active search, opening drawers to re-observe, then grasping.
+- **[Seek6D](https://github.com/seb000423/Seek6D)** — cobot that finds and picks an object without knowing where it is
+  - **Search:** voice command, active search over preset zones, and drawer opening to re-observe hidden objects
   - **Perception:** GroundingDINO detection and Any6D 6D pose estimation, with multi-stage pose validation
   - **Manipulation:** collision-aware grasping with MoveIt 2 on a Doosan M0609
   - **Tech:** ROS 2, Python, MoveIt 2, GroundingDINO, Any6D
 
-- **[Dish Washing Cobot](https://github.com/seb000423/Dish_Washing_Cobot)**
-  - Washes plates, bowls and cups by contact, using a cobot instead of a spray-based dishwasher.
-  - **Motion:** shape-specific washing trajectories with force/compliance control and re-grasping for occluded regions
+- **[Dish Washing Cobot](https://github.com/seb000423/Dish_Washing_Cobot)** — cobot that washes dishes by direct contact, not by spraying
+  - **Motion:** shape-specific washing trajectories for plates, bowls and cups, with force/compliance control and re-grasping for occluded regions
   - **Interface:** ROS 2 task orchestration with a physical button and a Flask web UI
   - **Tech:** ROS 2, Python, Doosan M0609, OnRobot RG2, Flask
